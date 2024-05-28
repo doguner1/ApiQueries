@@ -46,15 +46,6 @@ Bu dosya, rastgele Kanye West sözlerini kullanıcı arayüzünde gösteren Swif
 
 Bu dosya, Kanye West API'sinden gelen yanıtları işlemek için gerekli olan yapıyı içerir. `WelcomeKanye` yapı, API'den gelen rastgele sözleri temsil eder.
 
-## Katkıda Bulunma
-
-- Projeyi klonlayın: `git clone https://github.com/kullanici/ApiQueries.git`
-- Geliştirmelerinizi yapın.
-- Değişiklikleri taahhüt edin: `git commit -am 'Yeni özellik ekle'`
-- Değişiklikleri gönderin: `git push origin ana-dal`
-- Bir pull talebi açın.
-
-
 ## 3. JokesAppApi
 
 ![KanyeApi](https://github.com/doguner1/GitImageData/blob/main/ApiQueries/JokesAppApi/Ekran%20Resmi%202024-05-28%2021.02.13.png?raw=true)
@@ -75,13 +66,6 @@ Bu dosya, şaka verilerini kullanıcı arayüzünde listeleyen SwiftUI görünü
 
 Bu dosya, şaka verilerini temsil eden yapıları içerir. `WelcomeJokes` ve `ValueJokes` yapıları, JSON dosyasından gelen şaka verilerini işler.
 
-## Katkıda Bulunma
-
-- Projeyi klonlayın: `git clone https://github.com/kullanici/ApiQueries.git`
-- Geliştirmelerinizi yapın.
-- Değişiklikleri taahhüt edin: `git commit -am 'Yeni özellik ekle'`
-- Değişiklikleri gönderin: `git push origin ana-dal`
-- Bir pull talebi açın.
 
 ## Katkıda Bulunma
 
