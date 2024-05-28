@@ -10,14 +10,14 @@ import Alamofire
 
 class JokesViewModel: ObservableObject {
     
-    @Published var jokes = [Value]()
+    @Published var jokes = [ValueJokes]()
     
     init() {
         getJokes()
     }
     
     func getJokes() {
-        AF.request("https://raw.githubusercontent.com/atilsamancioglu/JokesAppJsonData/main/chuck.json",method: .get).responseDecodable(of: Welcome.self) { response in
+        AF.request("https://raw.githubusercontent.com/atilsamancioglu/JokesAppJsonData/main/chuck.json",method: .get).responseDecodable(of: WelcomeJokes.self) { response in
             
             switch response.result {
             case .success(let data):

@@ -14,6 +14,16 @@
 		D030A9BC2C05A34E00E3AF60 /* ApiQueriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A9BB2C05A34E00E3AF60 /* ApiQueriesTests.swift */; };
 		D030A9C62C05A34E00E3AF60 /* ApiQueriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A9C52C05A34E00E3AF60 /* ApiQueriesUITests.swift */; };
 		D030A9C82C05A34E00E3AF60 /* ApiQueriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A9C72C05A34E00E3AF60 /* ApiQueriesUITestsLaunchTests.swift */; };
+		D030A9D82C05A3A800E3AF60 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D030A9D72C05A3A800E3AF60 /* Alamofire */; };
+		D030A9DE2C05A3D600E3AF60 /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A9DD2C05A3D600E3AF60 /* JokesViewModel.swift */; };
+		D030A9E02C05A42900E3AF60 /* JokesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A9DF2C05A42900E3AF60 /* JokesData.swift */; };
+		D030A9E22C05A44C00E3AF60 /* JokesHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A9E12C05A44C00E3AF60 /* JokesHomeView.swift */; };
+		D030A9E62C05A50200E3AF60 /* KanyeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A9E52C05A50200E3AF60 /* KanyeData.swift */; };
+		D030A9E92C05A5CC00E3AF60 /* KanyeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A9E82C05A5CC00E3AF60 /* KanyeHomeView.swift */; };
+		D030A9EC2C05A5F500E3AF60 /* KanyeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A9EB2C05A5F500E3AF60 /* KanyeViewModel.swift */; };
+		D05312B42C05D32E00AEC289 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05312B32C05D32E00AEC289 /* WeatherData.swift */; };
+		D05312B72C05D35E00AEC289 /* WeatherHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05312B62C05D35E00AEC289 /* WeatherHomeView.swift */; };
+		D05312BC2C05D3FB00AEC289 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05312BB2C05D3FB00AEC289 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,15 @@
 		D030A9C12C05A34E00E3AF60 /* ApiQueriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiQueriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D030A9C52C05A34E00E3AF60 /* ApiQueriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiQueriesUITests.swift; sourceTree = "<group>"; };
 		D030A9C72C05A34E00E3AF60 /* ApiQueriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiQueriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D030A9DD2C05A3D600E3AF60 /* JokesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
+		D030A9DF2C05A42900E3AF60 /* JokesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesData.swift; sourceTree = "<group>"; };
+		D030A9E12C05A44C00E3AF60 /* JokesHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesHomeView.swift; sourceTree = "<group>"; };
+		D030A9E52C05A50200E3AF60 /* KanyeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanyeData.swift; sourceTree = "<group>"; };
+		D030A9E82C05A5CC00E3AF60 /* KanyeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanyeHomeView.swift; sourceTree = "<group>"; };
+		D030A9EB2C05A5F500E3AF60 /* KanyeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanyeViewModel.swift; sourceTree = "<group>"; };
+		D05312B32C05D32E00AEC289 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		D05312B62C05D35E00AEC289 /* WeatherHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeView.swift; sourceTree = "<group>"; };
+		D05312BB2C05D3FB00AEC289 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D030A9D82C05A3A800E3AF60 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,9 @@
 		D030A99E2C05A34D00E3AF60 = {
 			isa = PBXGroup;
 			children = (
+				D05312B12C05CF7F00AEC289 /* WeatherAppApi */,
+				D030A9E32C05A48600E3AF60 /* KanyeRestApi */,
+				D030A9D42C05A35C00E3AF60 /* JokesAppApi */,
 				D030A9A92C05A34D00E3AF60 /* ApiQueries */,
 				D030A9BA2C05A34E00E3AF60 /* ApiQueriesTests */,
 				D030A9C42C05A34E00E3AF60 /* ApiQueriesUITests */,
@@ -127,6 +150,108 @@
 			path = ApiQueriesUITests;
 			sourceTree = "<group>";
 		};
+		D030A9D42C05A35C00E3AF60 /* JokesAppApi */ = {
+			isa = PBXGroup;
+			children = (
+				D030A9DC2C05A3C600E3AF60 /* JokesModel */,
+				D030A9DA2C05A3B900E3AF60 /* JokesView */,
+				D030A9D92C05A3B000E3AF60 /* JokesData */,
+			);
+			path = JokesAppApi;
+			sourceTree = "<group>";
+		};
+		D030A9D92C05A3B000E3AF60 /* JokesData */ = {
+			isa = PBXGroup;
+			children = (
+				D030A9DF2C05A42900E3AF60 /* JokesData.swift */,
+			);
+			path = JokesData;
+			sourceTree = "<group>";
+		};
+		D030A9DA2C05A3B900E3AF60 /* JokesView */ = {
+			isa = PBXGroup;
+			children = (
+				D030A9E12C05A44C00E3AF60 /* JokesHomeView.swift */,
+			);
+			path = JokesView;
+			sourceTree = "<group>";
+		};
+		D030A9DC2C05A3C600E3AF60 /* JokesModel */ = {
+			isa = PBXGroup;
+			children = (
+				D030A9DD2C05A3D600E3AF60 /* JokesViewModel.swift */,
+			);
+			path = JokesModel;
+			sourceTree = "<group>";
+		};
+		D030A9E32C05A48600E3AF60 /* KanyeRestApi */ = {
+			isa = PBXGroup;
+			children = (
+				D030A9EA2C05A5E500E3AF60 /* KanyeModel */,
+				D030A9E72C05A5AA00E3AF60 /* KanyeView */,
+				D030A9E42C05A4CB00E3AF60 /* KanyeData */,
+			);
+			path = KanyeRestApi;
+			sourceTree = "<group>";
+		};
+		D030A9E42C05A4CB00E3AF60 /* KanyeData */ = {
+			isa = PBXGroup;
+			children = (
+				D030A9E52C05A50200E3AF60 /* KanyeData.swift */,
+			);
+			path = KanyeData;
+			sourceTree = "<group>";
+		};
+		D030A9E72C05A5AA00E3AF60 /* KanyeView */ = {
+			isa = PBXGroup;
+			children = (
+				D030A9E82C05A5CC00E3AF60 /* KanyeHomeView.swift */,
+			);
+			path = KanyeView;
+			sourceTree = "<group>";
+		};
+		D030A9EA2C05A5E500E3AF60 /* KanyeModel */ = {
+			isa = PBXGroup;
+			children = (
+				D030A9EB2C05A5F500E3AF60 /* KanyeViewModel.swift */,
+			);
+			path = KanyeModel;
+			sourceTree = "<group>";
+		};
+		D05312B12C05CF7F00AEC289 /* WeatherAppApi */ = {
+			isa = PBXGroup;
+			children = (
+				D05312BA2C05D3E800AEC289 /* WeatherViewModel */,
+				D05312B52C05D34A00AEC289 /* WeatherView */,
+				D05312B22C05CF8F00AEC289 /* WeatherData */,
+			);
+			path = WeatherAppApi;
+			sourceTree = "<group>";
+		};
+		D05312B22C05CF8F00AEC289 /* WeatherData */ = {
+			isa = PBXGroup;
+			children = (
+				D05312B32C05D32E00AEC289 /* WeatherData.swift */,
+			);
+			path = WeatherData;
+			sourceTree = "<group>";
+		};
+		D05312B52C05D34A00AEC289 /* WeatherView */ = {
+			isa = PBXGroup;
+			children = (
+				D05312B62C05D35E00AEC289 /* WeatherHomeView.swift */,
+			);
+			path = WeatherView;
+			sourceTree = "<group>";
+		};
+		D05312BA2C05D3E800AEC289 /* WeatherViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D05312BB2C05D3FB00AEC289 /* WeatherViewModel.swift */,
+			);
+			path = WeatherViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +268,9 @@
 			dependencies = (
 			);
 			name = ApiQueries;
+			packageProductDependencies = (
+				D030A9D72C05A3A800E3AF60 /* Alamofire */,
+			);
 			productName = ApiQueries;
 			productReference = D030A9A72C05A34D00E3AF60 /* ApiQueries.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +343,9 @@
 				Base,
 			);
 			mainGroup = D030A99E2C05A34D00E3AF60;
+			packageReferences = (
+				D030A9D62C05A3A800E3AF60 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = D030A9A82C05A34D00E3AF60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +388,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05312B72C05D35E00AEC289 /* WeatherHomeView.swift in Sources */,
+				D030A9E02C05A42900E3AF60 /* JokesData.swift in Sources */,
+				D030A9E92C05A5CC00E3AF60 /* KanyeHomeView.swift in Sources */,
+				D05312BC2C05D3FB00AEC289 /* WeatherViewModel.swift in Sources */,
 				D030A9AD2C05A34D00E3AF60 /* ContentView.swift in Sources */,
+				D030A9EC2C05A5F500E3AF60 /* KanyeViewModel.swift in Sources */,
+				D030A9E22C05A44C00E3AF60 /* JokesHomeView.swift in Sources */,
 				D030A9AB2C05A34D00E3AF60 /* ApiQueriesApp.swift in Sources */,
+				D030A9E62C05A50200E3AF60 /* KanyeData.swift in Sources */,
+				D05312B42C05D32E00AEC289 /* WeatherData.swift in Sources */,
+				D030A9DE2C05A3D600E3AF60 /* JokesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +565,13 @@
 				DEVELOPMENT_TEAM = 85ASU83XHG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Need;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +596,13 @@
 				DEVELOPMENT_TEAM = 85ASU83XHG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Need;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +732,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D030A9D62C05A3A800E3AF60 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D030A9D72C05A3A800E3AF60 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D030A9D62C05A3A800E3AF60 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D030A99F2C05A34D00E3AF60 /* Project object */;
 }

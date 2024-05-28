@@ -9,14 +9,14 @@ import Foundation
 
 
 // MARK: - Welcome
-struct Welcome: Identifiable, Codable {
+struct WelcomeJokes: Identifiable, Codable {
     let id = UUID()
     let type: String
-    let value: [Value]
+    let value: [ValueJokes]
 }
 
 // MARK: - Value
-struct Value: Identifiable, Codable {
+struct ValueJokes: Identifiable, Codable {
     let id: Int
     let joke: String
     let categories: [String]
